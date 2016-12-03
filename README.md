@@ -10,11 +10,11 @@ pip_toto installation
 "Download and setup in-toto on *NIX (Linux, OS X, ..)" section of https://github.com/in-toto/in-toto/tree/develop/demo
 
 ```shell
-# After installing in-toto, get pip_toto
-git clone https://github.com/team-ferret/pip_toto.git
+# After installing in-toto, get pip-toto
+git clone https://github.com/team-ferret/pip-toto.git
 
 # Change into project root directory
-cd pip_toto
+cd pip-toto
 
 # Install with pip in "develop mode"
 # (we strongly recommend using Virtual Environments)
@@ -23,7 +23,7 @@ pip install -e .
 
 ```
 
-pip_toto options
+pip-toto options
 ===================
 * The following options are now valid when using pip install
 	* --toto-verify (layout) (layout-keys) 
@@ -32,7 +32,7 @@ pip_toto options
 		* EXAMPLE: pip install MyDemoProject3 --toto-default
 
 
-Sample packages pip installable with pip_toto options
+Sample packages pip installable with pip-toto options
 ========================================================
-* MyDemoProject3
-* MyMaliciousProject
+* MyDemoProject3 (this installation should succeed if the pip-toto options are used)
+* MyMaliciousProject (this installation should fail if the pip-toto options are used)
