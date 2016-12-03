@@ -6,8 +6,8 @@ About
 
 pip_toto installation
 =====================
-* First install in-toto as outlined in the  
-"Download and setup in-toto on *NIX (Linux, OS X, ..)" section of https://github.com/in-toto/in-toto/tree/develop/demo
+* First install in-toto as outlined in https://github.com/in-toto/in-toto/tree/develop/demo#download-and-setup-in-toto-on-nix-linux-os-x-  
+
 
 ```shell
 # After installing in-toto, get pip-toto
