@@ -4,7 +4,7 @@ About
 * It assumes that there is an outer package, containing the payload package and the files necessary for toto-verification. 
 * If there is a failure during the toto-verification process, the installation is halted.
 
-pip_toto installation
+pip-toto installation
 =====================
 * First install in-toto as outlined in https://github.com/in-toto/in-toto/tree/develop/demo#download-and-setup-in-toto-on-nix-linux-os-x-  
 
