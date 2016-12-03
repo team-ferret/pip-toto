@@ -2,6 +2,7 @@ About
 =====
 * This is a modified version of pip that integrates in-toto verification.
 * It assumes that there is an outer package, containing the payload package and the files necessary for toto-verification. 
+* If there is a failure during the toto-verification process, the installation is halted.
 
 pip_toto installation
 =====================
